@@ -343,16 +343,18 @@ img {
 /*================== Buttons ===================*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
+  background-color: transparent;
+  color: blue;
   padding: 1rem;
   margin-bottom: 10px;
   border-radius: 0.5rem;
+  border: 2px solid blue;;
   font-weight: var(--font-medium);
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+  color: white;
 }
 
 .button__icon {
@@ -556,7 +558,7 @@ img {
 }
 
 .qualification__button:hover {
-  color: var(--first-color);
+  color: white;
 }
 
 .qualification__icon {
@@ -1162,4 +1164,21 @@ img {
   .button--white {
     bottom: -4.5rem;
   }
+}
+
+bt{
+    display: inline-block;
+    background-color: transparent;
+    color: blue;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+    border: 2px solid blue;
+    font-weight: var(--font-medium);
+}
+
+.bt:hover {
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
 }
